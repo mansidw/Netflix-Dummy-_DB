@@ -1,0 +1,110 @@
+
+.logo
+{
+	width: 100px;
+	height:55px;
+	margin: 5px 10px 10px 10px;
+	position: left;
+}
+
+body
+{
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+}
+
+.header{
+	width= 70%;
+	height: 730px;
+	border: 2px solid black;
+	margin-left: 10%;
+	margin-top: 0%;
+}
+
+.image{
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.image h2{
+	
+	margin-top: 0px;
+	color: burlywood;
+	margin-bottom: 0px;
+}
+
+.image p{
+	color: silver;
+	position: absolute;
+	display: inline-block;
+	margin-right: 15%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-bottom: 2px solid silver;
+}
+
+.image img{
+	width: 12%;
+	height:12%;
+	margin-top:1%;
+}
+
+
+.photo img
+{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	left: 20%;
+	margin-left: 1%;
+	margin-right: 1%;
+	transition: .5s;
+}
+
+.photo img:hover{
+	transform: scale(1.1);
+	box-shadow:0 5px 8px rosybrown;
+}
+
+.btn button{
+	border: none;
+	outline: none;
+	width: 13%;
+	height: 40px;
+	margin-left: 2%;
+	margin-radius: 5px;
+	background-color: darkkhakhi;
+	margin-top: 3%;
+	cursor: pointer;
+	transision: .5s;
+	border: 2px solid silver;
+}
+
+.btn button: hover{
+	background-color: mistyrose;
+	box-shadow: 0 5px 8px white;
+}
+
+.more h2{
+	color:aliceblue;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.more img{
+	width: 8%;
+	height:8%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	transition: .5s;
+	margin-left: 4%;
+	display: inline-block;
+}
+
+.more img:hover{
+	transform: scale(1.05);
+	box-shadow: 0 5px 8px rosybrown;
+}

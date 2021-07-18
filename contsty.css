@@ -1,0 +1,178 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color:black !important;
+
+}
+.fullbox{
+  position:relative;
+}
+
+.first{
+  color: white;
+  border: 1px solid black;
+  background: rgba(0,0,0,0.7);
+  font-family: 'Architects Daughter', cursive;
+  width: 28%;
+  font-size: 60px;
+  font-weight: 500;
+
+}
+
+h2{
+  color: white !important;
+  font-family: Oswald;
+}
+p{
+  color: white;
+}
+
+.navbar-brand,.navbar-brand:link,.navbar-brand:visited{
+  color:red;
+  font-size: 30px;
+  font-weight: normal;
+  font-family:Oswald; 
+}
+
+#logon{
+  font-size: 20px;
+  /*position: absolute;*/
+  top:14px;
+  right:1100px;
+}
+
+#want{
+  font-size: 20px;
+  /*position: absolute;*/
+  top:14px;
+  right:1100px;
+}
+
+.nav-link{
+  
+}
+.nav-item active{
+  position: relative;
+}
+
+.btn-outline-success{
+  background-color: red !important;
+  color: white !important;
+  border-color: red !important;
+}
+
+.form-control{
+  background-color: white !important;
+  border-color:white !important;
+}
+.mr-sm-2{
+  color: black !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 15px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32rem;
+}
+
+.container {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 0px;
+}
+
+#man{
+  background-color: black;
+  padding-top: 15px;
+  margin-top: 10px;
+  border-top: 10px;
+  height: 660px;
+  position: relative;
+} 
+
+#laa{
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+.last{
+  position: relative;
+}
+
+
+
+
+.col-lg-4 img:hover{
+  transform: scale(1.38);
+  box-shadow: 0 5px 8px rosybrown;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

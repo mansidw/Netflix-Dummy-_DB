@@ -1,0 +1,52 @@
+body
+{
+	background-color: black; 
+	/*position: absolute;*/
+}
+
+.search-box
+{
+	position: relative;
+}
+
+#write
+{
+	width: 30%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 2px solid red;
+  	border-radius: 4px;
+  	font-size: 20px;
+  	font-family: Roboto;
+}
+
+#search
+{
+	background-color: red;
+  	border: none;
+  	color: white;
+  	padding: 16px 32px;
+  	text-decoration: none;
+  	margin: 4px 2px;
+  	font-size: 20px;
+  	cursor: pointer;
+  	font-family: Roboto;
+}
+
+#N
+{
+	position: relative;
+
+}
+
+#inp
+{
+	position: relative;
+
+}
+
+.search-box
+{
+	left: 30%;
+}
